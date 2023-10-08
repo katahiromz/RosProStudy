@@ -1,0 +1,1 @@
+gcc -o args args.c
