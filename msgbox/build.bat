@@ -1,1 +1,1 @@
-gcc -o msgbox msgbox.c
+gcc -mwindows -o msgbox msgbox.c
