@@ -41,7 +41,7 @@ void OnPaint(HWND hwnd)
 // WM_SIZE
 void OnSize(HWND hwnd, UINT state, int cx, int cy)
 {
-    if (!hwnd)
+    if (!g_hMainWnd)
         return;
 
     RECT rc;
